@@ -8,6 +8,6 @@ RUN npm  install
 # Build the application (if necessary)
 #RUN npm run build
 # Expose a port if your application listens on a specific port
-EXPOSE 3100
+EXPOSE 3400
 # Command to start the application
 CMD npm start
