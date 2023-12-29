@@ -74,7 +74,7 @@ export const findResults = async (lat, lng) => {
           });
 
           return {
-            radiusLimit: radius/100,
+            radiusLimit: radius/1000,
             nearestPlace: {
               name: validPlaces[0].name,
               lat: validPlaces[0].geometry.location.lat,
